@@ -1,12 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Techwave Man</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <section class="bg-[#1A0B2E] sticky top-0 z-50">
+  <div class="w-4/5 mx-auto">
+
+    <nav class="h-[60px] md:h-[92px] flex items-center justify-between text-white">
+
+      <!-- Logo -->
+      <div class="font-bold text-[20px] md:text-[32px]">
+        Tech
+        <span class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">
+          Wave
+        </span>
+      </div>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex gap-8 text-[16px] font-medium">
+        <li><a href="#" class="hover:text-pink-400">About</a></li>
+        <li><a href="#" class="hover:text-pink-400">Episodes</a></li>
+        <li><a href="#" class="hover:text-pink-400">Host</a></li>
+      </ul>
+
+      <!-- Desktop Button -->
+      <div class="hidden md:block">
+        <button class="px-4 py-2 rounded-full text-[16px] font-semibold
+          bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">
+          Subscribe →
+        </button>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <button class="md:hidden">
+
+        <img src="./assets/hamburger-menu.png" alt="Hamburger Menu">
+
+      </button>
+
+    </nav>
+
+  </div>
+</section>
+
+  </body>
 </html>
