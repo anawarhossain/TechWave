@@ -3,49 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Inter Font -->
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+      }
+    </style>
+
     <title>Techwave Man</title>
   </head>
-  <body>
+  <body class="">
+    <!-- Header Section -->
     <section class="bg-[#1A0B2E] sticky top-0 z-50">
-  <div class="w-4/5 mx-auto">
+      <div class="w-4/5 mx-auto">
+        <nav
+          class="h-[60px] md:h-[92px] flex items-center justify-between text-white"
+        >
+          <!-- Logo -->
+          <div class="font-bold text-[20px] md:text-[32px]">
+            Tech
+            <span
+              class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
+            >
+              Wave
+            </span>
+          </div>
 
-    <nav class="h-[60px] md:h-[92px] flex items-center justify-between text-white">
+          <!-- Desktop Menu -->
+          <ul class="hidden md:flex gap-8 text-[16px] font-medium">
+            <li><a href="#" class="hover:text-pink-400">About</a></li>
+            <li><a href="#" class="hover:text-pink-400">Episodes</a></li>
+            <li><a href="#" class="hover:text-pink-400">Host</a></li>
+          </ul>
 
-      <!-- Logo -->
-      <div class="font-bold text-[20px] md:text-[32px]">
-        Tech
-        <span class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">
-          Wave
-        </span>
+          <!-- Desktop Button -->
+          <div class="hidden md:block">
+            <button
+              class="px-4 py-2 rounded-full text-[16px] font-semibold bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]"
+            >
+              Subscribe →
+            </button>
+          </div>
+
+          <!-- Mobile Hamburger -->
+          <button class="md:hidden">
+            <img src="./assets/hamburger-menu.png" alt="Hamburger Menu" />
+          </button>
+        </nav>
       </div>
+    </section>
 
-      <!-- Desktop Menu -->
-      <ul class="hidden md:flex gap-8 text-[16px] font-medium">
-        <li><a href="#" class="hover:text-pink-400">About</a></li>
-        <li><a href="#" class="hover:text-pink-400">Episodes</a></li>
-        <li><a href="#" class="hover:text-pink-400">Host</a></li>
-      </ul>
+    
 
-      <!-- Desktop Button -->
-      <div class="hidden md:block">
-        <button class="px-4 py-2 rounded-full text-[16px] font-semibold
-          bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">
-          Subscribe →
-        </button>
+    <!-- About Section -->
+    <section class="hidden bg-[#1A0B2E] px-6 py-16">
+      <div class="max-w-4xl mx-auto text-center text-white">
+        <h1 class="text-5xl font-bold mb-4">About The Podcast</h1>
+        <p class="text-white opacity-80 text-base leading-relaxed">
+          TechWave is your go-to podcast for staying ahead in the fast-paced
+          world of technology. We break down complex topics into digestible
+          insights, explore productivity strategies that actually work, and
+          share stories of personal growth from industry leaders. <br />
+          <br />Join thousands of young professionals and tech enthusiasts who
+          start their day with TechWave.
+        </p>
+        <hr class="border-solid border-[#FFFFFF] opacity-10 mt-20 mb-20" />
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-y-20">
+          <div class="text-center">
+            <h2 class="font-bold text-[#00FF88] text-5xl">150K+</h2>
+            <h4 class="text-base font-normal text-white opacity-80">Monthly Listeners</h4>
+          </div>
+          <div>
+            <h2 class="font-bold text-[#00FF88] text-5xl">200+</h2>
+            <h4 class="text-base font-normal text-white opacity-80">Episodes Published</h4>
+          </div>
+          <div>
+            <h2 class="font-bold text-[#00FF88] text-5xl">4.9★</h2>
+            <h4 class="text-base font-normal text-white opacity-80">Average Rating</h4>
+          </div>
+          <div>
+            <h2 class="font-bold text-[#00FF88] text-5xl">50+</h2>
+            <h4 class="text-base font-normal text-white opacity-80">Industry Experts</h4>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <!-- Mobile Hamburger -->
-      <button class="md:hidden">
+    <!-- Choose Section -->
 
-        <img src="./assets/hamburger-menu.png" alt="Hamburger Menu">
-
-      </button>
-
-    </nav>
-
-  </div>
-</section>
 
   </body>
 </html>
