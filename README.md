@@ -148,3 +148,19 @@
 - **Live Website Link (GitHub Pages)**
 
 ---
+
+## 📄 Author
+
+**Md Anawar Hossain** — Junior/Full-Stack Developer.
+
+- **GitHub:** [@anawarhossain](https://github.com/anawarhossain)
+- **Facebook:** [Anawar Hossain](https://web.facebook.com/AnawarHossain55)
+- **LinkedIn:** [Anawar Hossain](https://www.linkedin.com/in/anawarhossain/)
+- **X (Twitter):** [Anawar Hossain](https://x.com/MDANAWAR22)
+- **Discored:** [Anawar Hossain](https://discord.com/users/488662910764318741)
+- **WhatsApp:** [Anawar Hossain](https://wa.me/+8801701020694)
+- **Portfolio:** [Anawar Hossain](https://anawarhossain.vercel.app)
+- **Portfolio2:** [Anawar Hossain](https://anawarhossain2.netlify.app)
+
+---
+
